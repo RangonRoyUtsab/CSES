@@ -22,10 +22,7 @@ void sol() {
 }
 
 int main() {
-  // freopen("in.txt", "r", stdin);
-  // freopen("out.txt", "w", stdout);
-
-  long long int test;
+   long long int test;
   cin >> test;
 
   while (test--) {

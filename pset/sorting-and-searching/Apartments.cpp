@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 #include <iostream>
 using namespace std;
 
@@ -14,10 +15,6 @@ bool range_check(ll a, ll k, ll b) {
 }
 
 int main() {
-
-  // freopen("in.txt", "r", stdin);
-  // freopen("out.txt", "w", stdout);
-
   ll n, m, k, temp, c = 0;
   cin >> n >> m >> k;
   vector<ll> a, b;
@@ -31,8 +28,6 @@ int main() {
   for (ll i = 0; i < m; i++) {
     cin >> temp;
     b.push_back(temp);
-    // auto f = find(a.begin(), a.end(), temp);
-    // if (f!=a.end()) c++;
   }
   sort(b.begin(), b.end());
 
@@ -44,7 +39,6 @@ int main() {
     else
       i++, j++, c++;
   }
-
   cout << c << endl;
 
   return 0;

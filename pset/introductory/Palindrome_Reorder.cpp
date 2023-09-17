@@ -38,8 +38,7 @@ int main() {
       }
     }
     string hans2 = hans;
-    if (len % 2)
-      hans2 += ('A' + pos[0]);
+    if (len % 2) hans2 += ('A' + pos[0]);
 
     sort(hans.begin(), hans.end(), greater<int>());
 

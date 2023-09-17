@@ -16,29 +16,25 @@ int main() {
         count++;
         i++;
       }
-      if (count > a)
-        a = count;
+      if (count > a) a = count;
     } else if (s[i] == 'C') {
       while (s[i] == 'C') {
         count++;
         i++;
       }
-      if (count > c)
-        c = count;
+      if (count > c) c = count;
     } else if (s[i] == 'G') {
       while (s[i] == 'G') {
         count++;
         i++;
       }
-      if (count > g)
-        g = count;
+      if (count > g) g = count;
     } else if (s[i] == 'T') {
       while (s[i] == 'T') {
         count++;
         i++;
       }
-      if (count > t)
-        t = count;
+      if (count > t) t = count;
     }
     count = 0;
   }

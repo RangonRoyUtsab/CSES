@@ -18,8 +18,6 @@ ll log5(ll n) {
 int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
-  // freopen("in.txt", "r", stdin);
-  // freopen("out.txt", "w", stdout);
 
   ll n, ans = 0;
   cin >> n;
@@ -29,6 +27,5 @@ int main() {
       ans += log5(i);
     }
   }
-
   cout << ans << endl;
 }

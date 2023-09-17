@@ -2,9 +2,6 @@
 using namespace std;
 
 int main() {
-  // freopen("in.txt", "r", stdin);
-  // freopen("out.txt", "w", stdout);
-
   long long int n, i, r = 1, m = 1000000007;
   cin >> n;
 
